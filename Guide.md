@@ -1,5 +1,11 @@
 *Important Note
 I used Typescript in this project to build this game. 
+When it runs, click on "new game" to erase all the bs glitches that came out of nowhere.
+I will fix the useGame.tsx file later
+I fixed it, somehow.
+I will need to restart the whole computer and run this thing again, because it only occurs when I restart the computer
+I created two extra version of "useGame" file, and called them as V1 and V2. V2 is the one that has been fixed. V1 is the default one.
+Once i'm done, I will delete both files, to save the space
 
 ## Using React to create a game based on Bejeweled and Candy Crush
 
