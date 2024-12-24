@@ -3,7 +3,7 @@ import generateBoard from "../business/boardGenerator";
 import monitorMatches from "../business/monitorMatches";
 import refillBoard from "../business/refillBoard";
 
-type Board = any[]; // Keeping your structure as is
+type Board = any[]; // Keeping your structure as it is
 type Score = number;
 
 const useGame = (): [
@@ -53,7 +53,7 @@ const useGame = (): [
 
       // Update the previousBoard ref
       previousBoard.current = newBoard;
-    }, 100);
+    }, 1000);
 
     return () => clearInterval(timer);
   }, [board, score]);
