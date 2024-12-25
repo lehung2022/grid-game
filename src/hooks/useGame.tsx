@@ -53,7 +53,7 @@ const useGame = (): [
 
       // Update the previousBoard ref
       previousBoard.current = newBoard;
-    }, 1000);
+    }, 100);
 
     return () => clearInterval(timer);
   }, [board, score]);
